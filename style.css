@@ -1,0 +1,80 @@
+p{
+
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: left;
+  text-align: justify;
+  font-family: Georgia, serif;
+  font-size: 150%;
+}
+h1{
+
+  margin-left: 600px;
+  margin-right: 600px;
+  text-align: left;
+  font-family:
+}
+
+h2{
+  text-align: left;
+  margin-left: 600px;
+  margin-right: 300px;
+}
+
+h3{
+
+  margin-left: 0px;
+  margin-right:0px;
+  text-align:  left;
+}
+
+#paradise{
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+
+  }
+
+span{
+  text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+li{
+  display: inline;
+}
+
+#circle {
+   width: 50px;
+   height: 50px;
+   background: /home/olivia/Téléchargements/harry;
+   border-radius: 50%
+ }
+
+#y{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background: black;
+}
+
+#sign{
+  text-align: right;
+
+}
+
+#get{
+  text-align: right;
+}
+
+#one-zero{
+  text-align: left;
+}
