@@ -1,18 +1,22 @@
+
+header{
+  border-bottom: 1px solid black;
+}
 p{
 
   margin-left: 500px;
   margin-right: 500px;
   text-align: left;
-  text-align: justify;
-  font-family: Georgia, serif;
+  font-family: 'Literata', serif;
   font-size: 150%;
+  margin border-bottom: 30%;
 }
 h1{
 
   margin-left: 600px;
   margin-right: 600px;
   text-align: left;
-  font-family:
+
 }
 
 h2{
@@ -23,18 +27,10 @@ h2{
 
 h3{
 
-  margin-left: 0px;
-  margin-right:0px;
+  margin-left: 500px;
+  margin-right:500px;
   text-align:  left;
 }
-
-#paradise{
-  display: block;
-  margin: auto;
-  width: 80%;
-  height: 80%;
-
-  }
 
 span{
   text-decoration: underline;
@@ -51,30 +47,92 @@ ul{
 li{
   display: inline;
 }
+div{
+  text-align: center;
+  width: 55%;
+  height: 55%;
+  background-color: white;
+  display: block;
+  border-width:1px;
+  border-style:dotted;
+  border-color:black;
+}
+
+footer{
+  background: grey;
+  float: left;
+}
+
+#paradise{
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+
+  }
 
 #circle {
    width: 50px;
    height: 50px;
    background: /home/olivia/Téléchargements/harry;
-   border-radius: 50%
+   border-radius: 50%;
  }
 
 #y{
     width: 60px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 60px;
     background: black;
+    font-size: 150px;
+    color: white;
+    text-decoration: none;
+
+
+
 }
 
 #sign{
   text-align: right;
+  color: blue;
+  float: right;
+  border-left: 50%;
 
 }
 
-#get{
-  text-align: right;
+.bouton2 {
+padding: 15px 10px;
+background: white;
+color: blue;
+font-weight: lighter;
+font-size: 18px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 11px;
+border: 2px solid blue;
+display: block;
 }
 
 #one-zero{
   text-align: left;
+}
+
+#one{
+
+}
+
+#quote{
+  text-align: center;
+  font-size: 150%;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+a.bouton1 {
+padding: 10px 30px;
+background: blue;
+color: white;
+}
+a.bouton1:hover {
+background: red;
 }
