@@ -2,10 +2,24 @@ header{
   border-bottom: 1px solid black;
 }
   #M{
-    float: left;
+    margin-left: 15%;
   }
-  #sigin{
+  #signin{
+    color: blue;
     float: right;
+    font-size: 25px;
+
+  }
+
+  .bouton2 {
+
+  background: white;
+  color: red;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 2px solid red;
+  float: right;
+  margin-right: 20%;
   }
 
 section{
@@ -13,22 +27,78 @@ section{
   opacity: 0,05;
 }
 
+  #one-zero{
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 15%;
+
+  }
   #navbar{
     margin: 0;
     list-style-type: none;
     text-align: center;
     display: block;
     font-size: 25px;
-
   }
 
-.harry1
+li{
+    display: inline-block;
+}
+
+  h1{
+
+    margin-left: 800px;
+    margin-right: 800px;
+    text-align: left;
+    font-size: 60px;
+  }
+
+  h2{
+    text-align: left;
+    margin-left: 800px;
+    margin-right: 800px;
+    font-size: 190%;
+  }
+
+.harry1{
+
+}
   #circle {
      width: 90px;
      height: 90px;
      background: /home/olivia/Téléchargements/harry;
      border-radius: 90%;
    }
+
+   #bio{
+
+   }
+
+#paradise{
+
+     display: flex;
+     justify-content: center;
+
+   }
+
+.small{
+     font-size: 20px;
+     text-align: center;
+   }
+
+.legend{
+  float: left;
+}
+
+  #title{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #text{
+    font-size: 20px;
+  }
+
 p{
 
   margin-left: 800px;
@@ -40,56 +110,8 @@ p{
   line-height: 50px;
   margin-bottom: 60px;
 }
-h1{
 
-  margin-left: 800px;
-  margin-right: 800px;
-  text-align: left;
-  font-size: 60px;
-
-}
-
-h2{
-  text-align: left;
-  margin-left: 800px;
-  margin-right: 800px;
-  font-size: 190%;
-}
-
-h3{
-
-  margin-left: 800px;
-  margin-right:800px;
-  text-align:  left;
-  font-size: 200%;
-}
-
-span{
-  text-decoration: underline;
-}
-
-
-li{
-  display: inline-block;
-}
-
-
-
-
-#paradise{
-
-  display: flex;
-  justify-content: center;
-
-}
-
-#small{
-  font-weight: 0,5px;
-}
-
-
-
-#y{
+  #y{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -101,98 +123,70 @@ li{
     float: left;
     text-align: center;
     margin-right: 15px;
+  }
 
+span{
+    text-decoration: underline;
+  }
 
-
-}
-
-#sign{
-  text-align: right;
-  color: blue;
-  float: right;
-  border-left: 50%;
-
-}
-
-.bouton2 {
-
-background: white;
-color: red;
-font-size: 25px;
-border-radius: 5px;
-border: 2px solid red;
-float: right;
-margin-right: 20%;
-}
-
-#one-zero{
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  width: 20%;
-
-}
-
-.quote{
-  text-align: center;
-  font-size: 300%;
+h3{
   margin-left: 800px;
-  margin-right: 800px;
+  margin-right:800px;
+  text-align:  left;
+  font-size: 200%;
 }
 
-a.bouton1 {
-padding: 10px 30px;
-background: blue;
-color: white;
-}
-a.bouton1:hover {
-background: red;
-}
-
-div#foot2{
-  float: left;
-  width: 600px;
-  height: 400px;
-  background: lightblue;
-  font-size: 30px;
-
-}
-
-div#foot4{
-  float: left;
-  width: 600px;
-  height: 400px;
-  background: burlywood;
-  font-size: 30px;
-
-}
-
-div#foot3{
-  float: left;
-  background: khaki;
-  width: 600px;
-  height: 400px;
-  font-size: 30px;
-
-
-}
+  .quote{
+    text-align: left;
+    font-size: 300%;
+    margin-left: 900px;
+    margin-right: 900px;
+   }
 
 .div3{
+
   width: 700px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-#harry{
-  float: left;
-}
+  #harry{
+    font-size: 20px;
+  }
 
-#one{
-  float: left;
-}
+  #smallone{
+    font-size: 20px;
+    width: 60%;
 
+  }
 
 .div4{
   width: 1800px;
   margin: 0 auto;
 
 }
+
+  #foot2{
+    float: left;
+    width: 600px;
+    height: 400px;
+    background: lightblue;
+    font-size: 30px;
+  }
+
+  #foot3{
+    float: left;
+    background: khaki;
+    width: 600px;
+    height: 400px;
+    font-size: 30px;
+  }
+
+  #foot4{
+    float: left;
+    width: 600px;
+    height: 400px;
+    background: burlywood;
+    font-size: 30px;
+  }
