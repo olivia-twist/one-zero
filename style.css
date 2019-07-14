@@ -1,91 +1,106 @@
-
 header{
   border-bottom: 1px solid black;
 }
+  #M{
+    float: left;
+  }
+  #sigin{
+    float: right;
+  }
+
+section{
+  border-bottom: 2px solid grey;
+  opacity: 0,05;
+}
+
+  #navbar{
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+
+  }
+
+.harry1
+  #circle {
+     width: 90px;
+     height: 90px;
+     background: /home/olivia/Téléchargements/harry;
+     border-radius: 90%;
+   }
 p{
 
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 800px;
+  margin-right: 800px;
   text-align: left;
-  font-family: 'Literata', serif;
-  font-size: 150%;
+  font-family: 'Georgia', serif;
+  font-size: 180%;
   margin border-bottom: 30%;
+  line-height: 50px;
+  margin-bottom: 60px;
 }
 h1{
 
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 800px;
+  margin-right: 800px;
   text-align: left;
+  font-size: 60px;
 
 }
 
 h2{
   text-align: left;
-  margin-left: 600px;
-  margin-right: 300px;
+  margin-left: 800px;
+  margin-right: 800px;
+  font-size: 190%;
 }
 
 h3{
 
-  margin-left: 500px;
-  margin-right:500px;
+  margin-left: 800px;
+  margin-right:800px;
   text-align:  left;
+  font-size: 200%;
 }
 
 span{
   text-decoration: underline;
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-
-}
 
 li{
-  display: inline;
-}
-div{
-  text-align: center;
-  width: 55%;
-  height: 55%;
-  background-color: white;
-  display: block;
-  border-width:1px;
-  border-style:dotted;
-  border-color:black;
+  display: inline-block;
 }
 
-footer{
-  background: grey;
-  float: left;
-}
+
+
 
 #paradise{
-  display: block;
-  margin: auto;
-  width: 80%;
-  height: 80%;
 
-  }
+  display: flex;
+  justify-content: center;
 
-#circle {
-   width: 50px;
-   height: 50px;
-   background: /home/olivia/Téléchargements/harry;
-   border-radius: 50%;
- }
+}
+
+#small{
+  font-weight: 0,5px;
+}
+
+
 
 #y{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     background: black;
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     text-decoration: none;
+    padding: 35px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
 
 
 
@@ -100,32 +115,29 @@ footer{
 }
 
 .bouton2 {
-padding: 15px 10px;
+
 background: white;
-color: blue;
-font-weight: lighter;
-font-size: 18px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 11px;
-border: 2px solid blue;
-display: block;
+color: red;
+font-size: 25px;
+border-radius: 5px;
+border: 2px solid red;
+float: right;
+margin-right: 20%;
 }
 
 #one-zero{
   text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  width: 20%;
+
 }
 
-#one{
-
-}
-
-#quote{
+.quote{
   text-align: center;
-  font-size: 150%;
-  text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
+  font-size: 300%;
+  margin-left: 800px;
+  margin-right: 800px;
 }
 
 a.bouton1 {
@@ -135,4 +147,52 @@ color: white;
 }
 a.bouton1:hover {
 background: red;
+}
+
+div#foot2{
+  float: left;
+  width: 600px;
+  height: 400px;
+  background: lightblue;
+  font-size: 30px;
+
+}
+
+div#foot4{
+  float: left;
+  width: 600px;
+  height: 400px;
+  background: burlywood;
+  font-size: 30px;
+
+}
+
+div#foot3{
+  float: left;
+  background: khaki;
+  width: 600px;
+  height: 400px;
+  font-size: 30px;
+
+
+}
+
+.div3{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#harry{
+  float: left;
+}
+
+#one{
+  float: left;
+}
+
+
+.div4{
+  width: 1800px;
+  margin: 0 auto;
+
 }
