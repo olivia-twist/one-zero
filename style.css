@@ -1,25 +1,37 @@
 header{
   border-bottom: 1px solid black;
 }
-  #M{
+
+.blocHead{
+  box-shadow: 0px 8px 10px grey;
+  padding: 10px;
+  margin-left:-10px;
+
+}
+
+  #m{
     margin-left: 15%;
+    width: 60px;
+    height: 60px;
   }
   #signin{
-    color: blue;
+    color: purple;
     float: right;
     font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
 
   }
 
   .bouton2 {
-
-  background: white;
-  color: red;
+  border-radius: 10px;
+  color: purple;
   font-size: 25px;
-  border-radius: 5px;
-  border: 2px solid red;
+  border-radius: 1àpx;
+  border: 2px solid purple;
   float: right;
   margin-right: 20%;
+  margin-top: 10px;
   }
 
 section{
@@ -27,59 +39,80 @@ section{
   opacity: 0,05;
 }
 
-  #one-zero{
-    font-weight: bold;
-    font-size: 60px;
-    margin-left: 15%;
-
-  }
+.one_zero{
+    width: 200px;
+    padding-left: 90px;
+    }
   #navbar{
-    margin: 0;
     list-style-type: none;
-    text-align: center;
+    margin-left: 140px;
     display: block;
-    font-size: 25px;
+    font-size: 20px;
+    text-decoration: none;
   }
 
+  #navbar a{
+    color: grey;
+    font-size: 1em;
+    text-decoration: none;
+  }
 li{
     display: inline-block;
+    padding: inherit;
 }
 
   h1{
 
-    margin-left: 800px;
-    margin-right: 800px;
-    text-align: left;
+    margin-left: 530px;
+    margin-right: 430px;
     font-size: 60px;
   }
 
   h2{
-    text-align: left;
-    margin-left: 800px;
-    margin-right: 800px;
-    font-size: 190%;
+    margin-left: 530px;
+    margin-right: 290px;
+    font-size: 32px;
+    color: grey;
+    padding-top: 0;
   }
 
 .harry1{
+  margin-left: 530px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px;
 
 }
-  #circle {
-     width: 90px;
-     height: 90px;
-     background: /home/olivia/Téléchargements/harry;
-     border-radius: 90%;
-   }
+#circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 90%;
+}
 
-   #bio{
+#bio{
+  margin-top: 20px;
+  margin-left: 20px;
+}
 
-   }
+#follow{
+  margin-top: 20px;
+  font-size: 20px;
+  color:  purple;
+  border: 2px solid purple;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 140px;
+}
 
 #paradise{
+  margin-left: 10%;
+  margin-right: 10%;
+ }
 
-     display: flex;
-     justify-content: center;
-
-   }
+ #paradise img{
+   width:100%;
+ }
 
 .small{
      font-size: 20px;
@@ -88,6 +121,22 @@ li{
 
 .legend{
   float: left;
+  margin-left: 200px;
+  margin-right: 85%;
+  font-size: 10px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.logobook{
+  color:#9400D3;
+  height: 29px;
+}
+.align{
+  position: absolute;
+  width: 20px;
+  margin-left: 250px;
+  margin-top: 410px;
 }
 
   #title{
@@ -97,29 +146,32 @@ li{
 
   #text{
     font-size: 20px;
+    color: grey;
+    padding-top: 20px;
   }
 
 p{
-
-  margin-left: 800px;
-  margin-right: 800px;
+  margin-left: 30%;
+  margin-right: 20%;
   text-align: left;
   font-family: 'Georgia', serif;
-  font-size: 180%;
-  margin border-bottom: 30%;
-  line-height: 50px;
+  font-size: 130%;
+  line-height: 40px;
   margin-bottom: 60px;
+  margin-top: 50px;
+  color: black;
 }
 
   #y{
-    width: 100px;
-    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background: black;
     font-size: 100px;
     color: white;
     text-decoration: none;
-    padding: 35px;
+    padding: 30px;
     float: left;
     text-align: center;
     margin-right: 15px;
@@ -130,63 +182,99 @@ span{
   }
 
 h3{
-  margin-left: 800px;
-  margin-right:800px;
+  margin-left: 30%;
+  margin-right: 20%;
   text-align:  left;
-  font-size: 200%;
+  font-size: 150%;
+  color: black;
 }
 
-  .quote{
-    text-align: left;
-    font-size: 300%;
-    margin-left: 900px;
-    margin-right: 900px;
-   }
+.quote{
+    font-size: 150%;
+    margin-left: 30%;
+    margin-right: 22%;
+    color: black;
+}
+.bouton{
+  margin-left: 30%;
+}
+.btbas{
+  font-size: 15px;
+  text-transform: capitalize;
+  background-color: #F5F5DC	;
+  padding: 2px;
+  font-family: 'Montserrat', sans-serif;
+  radius:3px;
+  margin-right: 15px;
+  padding: 5px 1px;
+}
 
 .div3{
-
-  width: 700px;
-  margin: 0 auto;
+  margin-left: 30%;
+  margin-right: 20%;
+  margin-top: 80px;
   display: flex;
-  justify-content: space-between;
 }
 
   #harry{
     font-size: 20px;
+    width: 30%;
+    display: block;
+    margin-left: 20px;
   }
 
   #smallone{
     font-size: 20px;
-    width: 60%;
-
+    width: 30%;
+    display: block;
+    margin-left: 20px;
   }
 
+  #one{
+    width: 90px;
+    height: 90px;
+  }
+
+  h4{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+footer{
+  width: 100%;
+  background-color: lightblue;
+  justify-content: center;
+  display: flex;
+
+}
 .div4{
-  width: 1800px;
-  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  width: 70%;
 
 }
 
-  #foot2{
-    float: left;
-    width: 600px;
-    height: 400px;
-    background: lightblue;
-    font-size: 30px;
+.foot2{
+  background-color: white;
+  font-size: 30px;
+  width: 40%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 10px;
   }
 
-  #foot3{
-    float: left;
-    background: khaki;
-    width: 600px;
-    height: 400px;
-    font-size: 30px;
-  }
+h6{
+  font-size: 15px;
+  color: grey;
+}
 
-  #foot4{
-    float: left;
-    width: 600px;
-    height: 400px;
-    background: burlywood;
-    font-size: 30px;
-  }
+.textimage{
+  font-size: 20px;
+}
+
+.foot2 img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

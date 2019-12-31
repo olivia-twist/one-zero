@@ -1,0 +1,258 @@
+body{
+  width: 1000px;
+  margin: 0 auto;
+}
+header{
+  /*border : 1px solid black;
+  /*border-spacing: 1px solid grey;*/
+  height:130px;
+  margin-top: 10px;
+}
+.logomedium{
+  position: absolute;
+  top: 10px;
+  left: 280px;
+  width: 50px;
+}
+.fontmenu{
+  border-top: 1px solid #DCDCDC;
+  float:none;
+  width:1351px;
+  height:60px;
+  position: absolute;
+  box-shadow: 8px 10px 20px #DCDCDC;
+  left :0px;
+  top: 65px;
+}
+.menu1{
+  color: #9400D3;
+  margin: 20px;
+  position: absolute;
+  left: 900px
+}
+.getstarted{
+  font-size: 20px;
+  border: 1px solid #9400D3;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 15px;
+  padding: 5px 3px;
+  color :#9400D3;
+}
+.logoonezero{
+  position: absolute;
+  height: 50px;
+  left: 280px;
+  top: 65px;
+}
+.menu2{
+  position: absolute;
+  top : 85px;
+  left : 500px;
+}
+.blochaut{
+  height: 50px;
+  width: 300px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.tailleG{
+  width: 800px;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.tailleP{
+  width: 600px;
+  margin-left: 200px;
+}
+a{
+  font-size: 10px;
+  padding: 7px;
+  text-decoration: none;
+  color : grey;
+}
+h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+h5{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+h6{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size: 23px;
+}
+blockquote{
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+.top{
+
+  position: absolute;
+  left: 540px;
+  top : 360px;
+}
+.harry{
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 5px;
+
+}
+.oz{
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+}
+.txtlien{
+    float: left;
+    height: 180px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+.declharry{
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: relative;
+  left: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.follow{
+  padding-top: -60px;
+  margin-left: 30px;
+  border: 1px solid #9400D3;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 15px  3px;
+  padding: 8px;
+  color :#9400D3;
+  font-size: 10px;
+  float: left;
+}
+.logoBook{
+  color:#9400D3;
+  text-align: justify;
+}
+.align{
+  height: 100px;
+  width: 20px;
+}
+.rondy{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  float: left;
+  margin-right: 5px;
+  border-bottom: 5px;
+  font-size: 50px;
+  padding: 2% 4.5%;
+
+}
+.legendphoto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+.cote{
+  position: absolute;
+  left: 275px;
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+  width: 85px;
+}
+.souligne{text-decoration: underline;}
+.gras {
+  font-weight: bold;
+}
+.taille{
+  font-size: 30px;
+}
+blockquote{
+  font-size: 25px;
+}
+.btbas{
+  font-size: 15px;
+  text-transform: capitalize;
+  background-color: #F5F5DC	;
+  padding: 2px;
+  font-family: 'Montserrat', sans-serif;
+  radius:3px;
+  margin-right: 15px;
+  padding: 5px 1px;
+}
+.bloclien{
+  float: left;
+  height: 180px;
+  width: 290px;
+}
+.lien {
+  width: 600px;
+}
+.followb{
+  padding-top: -60px;
+  margin-left: 30px;
+  border: 1px solid #9400D3;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 15px  3px;
+  padding: 8px;
+  color :#9400D3;
+  font-size: 10px;
+  top:20px;
+
+}
+footer{
+
+  margin: auto;
+  left: 180px;
+  width: 1600px;
+}
+.txtbas{
+  float: left;
+  height: 180px;
+  width: 245px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px Grey;
+  margin: 5px;
+}
+.txtbas2{
+  height: 180px;
+  width: 245px;
+  margin-top: -30px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.imgbas{
+  width: 245px;
+  border-radius: 5px;
+}
+.fontfooter{
+  float: left;
+  background-color: #F5F5DC;
+  width:1000px;
+  height:500px;
+  position: absolute;
+}
